@@ -1,0 +1,5 @@
+*.out
+
+hello.html
+hello.wasm
+hello.js

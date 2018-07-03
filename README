@@ -1,0 +1,5 @@
+Build for native:
+gcc hello.c -lX11 -lEGL /usr/lib/nvidia-396/libOpenGL.so
+
+Build for web:
+emcc ./hello.c -o hello.html && emrun --no_browser --port 8000 ./hello.html
